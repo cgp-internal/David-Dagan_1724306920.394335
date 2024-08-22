@@ -1,0 +1,10 @@
+# Flutter and Riverpod project files
+.dart_tool/
+.pub/
+build/
+AppProvider
+HttpClientRepository
+getHttpClient
+.dartlint
+analysis_options.yaml.bak
+flutter_oss_licenses
