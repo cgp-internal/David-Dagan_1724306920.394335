@@ -1,0 +1,53 @@
+analyzer:
+  exclude:
+    - lib/generated/**
+  plugins:
+    - riverpod
+linter:
+  rules:
+    - unnecessary_brace_in_string_interps
+    - unnecessary_statements
+    - unnecessary_type_check
+    - unnecessary_cast
+    - unused_import
+    - unused_local_variable
+    - unused_field
+    - unnecessary_null_aware_calls
+    - unnecessary_lambdas
+    - join_return_with_assignment
+    - use_string_buffers
+    - omit_local_variable_types
+    - avoid_init_to_null
+    - avoid_unused_constructor_parameters
+    - avoid_final_locals
+    - avoid_unnecessary_containers
+    - avoid_annotating_with_dynamic
+    - cascade_invocations
+    - invariant_booleans
+    - library_names
+    - list_remove_unrelated_type
+    - no_duplicate_case_values
+    - non_constant_identifier_names
+    - null_safety
+    - prefer_adjacent_string_concatenation
+    - prefer_const_constructors
+    - prefer_conditional_assignment
+    - prefer_contains
+    - prefer_final_locals
+    - prefer_for_elements_to_map_fromIterable
+    - prefer_function_declarations_over_variables
+    - prefer_generic_function_type_aliases
+    - prefer_if_elements_to_conditional_expressions
+    - prefer_initializing_formals
+    - prefer_interpolation_to_compose_strings
+    - preferITERABLE_whereType
+    - prefer_is_empty
+    - prefer_is_not_empty
+    - sort_pub_dependencies
+    - type_init_formals
+    - unnecessary_getters_setters
+    - unnecessary_new
+    - use_colored_box
+    - use_decorated_box
+    - use_rethrow_whenPossible
+    - valid_regex_pattern
